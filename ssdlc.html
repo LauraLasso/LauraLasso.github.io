@@ -786,6 +786,69 @@ code {
             </thead>
             <tbody>
 
+              <!-- SEPARADOR FUNCIONALES -->
+              <tr>
+                <td colspan="3" style="padding:6px 10px;font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-text-faint);background:var(--color-surface-offset);border-bottom:1px solid var(--color-border);">
+                  Pruebas funcionales
+                </td>
+              </tr>
+
+              <!-- UNITARIAS -->
+              <tr>
+                <td class="test-type">Pruebas unitarias</td>
+                <td class="test-tool">JUnit · pytest · Vitest · Jest · NUnit</td>
+                <td class="test-detects">Corrección de cada función o módulo de forma aislada — lógica de negocio, cálculos, transformaciones de datos</td>
+              </tr>
+
+              <!-- INTEGRACIÓN -->
+              <tr>
+                <td class="test-type">Pruebas de integración</td>
+                <td class="test-tool">Postman · REST Assured · Supertest · Pact</td>
+                <td class="test-detects">Comunicación correcta entre módulos y servicios — contratos de API, respuestas HTTP, flujos entre capas</td>
+              </tr>
+
+              <!-- E2E -->
+              <tr>
+                <td class="test-type">Pruebas de sistema / E2E</td>
+                <td class="test-tool">Selenium · Cypress · Playwright · TestCafe</td>
+                <td class="test-detects">Flujos completos de usuario de extremo a extremo — registro, login, checkout, navegación crítica</td>
+              </tr>
+
+              <!-- REGRESIÓN -->
+              <tr>
+                <td class="test-type">Pruebas de regresión</td>
+                <td class="test-tool">Suite automatizada en CI/CD (GitHub Actions · GitLab CI)</td>
+                <td class="test-detects">Que los cambios nuevos no rompan funcionalidad existente — se ejecutan en cada PR antes de merge</td>
+              </tr>
+
+              <!-- SEPARADOR RENDIMIENTO -->
+              <tr>
+                <td colspan="3" style="padding:6px 10px;font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-text-faint);background:var(--color-surface-offset);border-bottom:1px solid var(--color-border);">
+                  Pruebas de rendimiento
+                </td>
+              </tr>
+
+              <!-- CARGA -->
+              <tr>
+                <td class="test-type">Pruebas de carga</td>
+                <td class="test-tool">JMeter · Gatling · k6 · Locust</td>
+                <td class="test-detects">Comportamiento bajo carga esperada — tiempos de respuesta, throughput, uso de CPU/memoria con tráfico normal y pico</td>
+              </tr>
+
+              <!-- ESTRÉS -->
+              <tr>
+                <td class="test-type">Pruebas de estrés</td>
+                <td class="test-tool">JMeter · k6 · Artillery</td>
+                <td class="test-detects">Límites del sistema bajo carga extrema — punto de ruptura, degradación controlada y recuperación tras sobrecarga</td>
+              </tr>
+
+              <!-- SEPARADOR SEGURIDAD -->
+              <tr>
+                <td colspan="3" style="padding:6px 10px;font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-text-faint);background:var(--color-surface-offset);border-bottom:1px solid var(--color-border);">
+                  Pruebas de seguridad
+                </td>
+              </tr>
+
               <!-- DAST -->
               <tr>
                 <td class="test-type">Análisis dinámico (DAST)</td>
