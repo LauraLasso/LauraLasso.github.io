@@ -445,12 +445,12 @@
           </svg>
         </div>
         <svg class="card-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          e x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/>
+          <line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/>
         </svg>
       </div>
       <div class="card-tag">
         <svg width="9" height="9" viewBox="0 0 8 8" fill="var(--color-primary)">
-          ircle cx="4" cy="4" r="4"/>
+          <circle cx="4" cy="4" r="4"/>
         </svg>
         Disponible
       </div>
@@ -470,6 +470,44 @@
       </div>
     </a>
 
+    <!-- TARJETA 2: PENTEST — disponible ← NUEVO -->
+    <a href="./pentest.html"
+       class="module-card available"
+       style="--card-accent: #b45309; --card-icon-bg: color-mix(in oklch, #b45309 10%, var(--color-surface-offset)); --card-tag-bg: color-mix(in oklch, #b45309 8%, var(--color-surface-offset));">
+      <div class="card-header">
+        <div class="card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="M21 21l-4.35-4.35"/>
+            <path d="M11 8v6M8 11h6"/>
+          </svg>
+        </div>
+        <svg class="card-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/>
+        </svg>
+      </div>
+      <div class="card-tag">
+        <svg width="9" height="9" viewBox="0 0 8 8" fill="#b45309">
+          <circle cx="4" cy="4" r="4"/>
+        </svg>
+        Disponible
+      </div>
+      <div class="card-body">
+        <h2>Test de Penetración</h2>
+        <p>Clasificación del pentesting, fases PTES, herramientas por ámbito y tabla automatizado vs. manual — orientado a auditoría de aplicaciones web (Grey Box · Targeted).</p>
+      </div>
+      <div class="card-meta">
+        <span class="meta-item">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          OWASP WSTG · PTES · NIST 800-115
+        </span>
+        <span class="meta-item">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          6 fases · Kali Linux · Clasificación
+        </span>
+      </div>
+    </a>
+
     <!-- TARJETA 2: LLMs — próximamente -->
     <div class="module-card coming-soon"
          style="--card-accent: var(--color-purple); --card-icon-bg: color-mix(in oklch, var(--color-purple) 10%, var(--color-surface-offset)); --card-tag-bg: color-mix(in oklch, var(--color-purple) 8%, var(--color-surface-offset));">
@@ -477,13 +515,13 @@
         <div class="card-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"/>
-            ircle cx="7.5" cy="14.5" r="1.5"/>ircle cx="16.5" cy="14.5" r="1.5"/>
+            <circle cx="7.5" cy="14.5" r="1.5"/><circle cx="16.5" cy="14.5" r="1.5"/>
           </svg>
         </div>
       </div>
       <div class="card-tag" style="color: var(--color-purple);">
         <svg width="9" height="9" viewBox="0 0 8 8" fill="var(--color-purple)">
-          ircle cx="4" cy="4" r="4"/>
+          <circle cx="4" cy="4" r="4"/>
         </svg>
         En desarrollo
       </div>
@@ -493,7 +531,7 @@
       </div>
       <span class="coming-soon-badge">
         <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          ircle cx="12" cy="12" r="10"/>
+          <circle cx="12" cy="12" r="10"/>
           <polyline points="12 6 12 12 16 14"/>
         </svg>
         Próximamente
